@@ -1,0 +1,13 @@
+get http://127.0.0.1:3000/staffs
+###
+post http://127.0.0.1:3000/staff
+Content-Type: application/json
+
+{
+    "name": "Sebastian Lang",
+    "image": "images/staff/placeholder.png",
+    "phone": "+43(0)123321",
+    "office": "HTL Wien West, Vienna 1160 Austria"
+}
+###
+get http://127.0.0.1:3000/abc
